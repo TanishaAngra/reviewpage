@@ -1,5 +1,6 @@
 import { Quicksand } from 'next/font/google'
 import './global.css';
+import 'tailwindcss/tailwind.css';
  
 const quicksand = Quicksand({
   subsets: ['latin'],

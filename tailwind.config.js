@@ -14,9 +14,10 @@ module.exports = {
       }
     },
     backgroundImage: {
-      'leaf-pattern': "url('/images/9387546_4166636.jpg')",
-    }
+      'leaf-pattern': "url('/public/images/9387546_4166636.svg')",
+    },
     
   },
   plugins: [],
 };
+

@@ -4,7 +4,7 @@ const Recommend = () => {
   return (
     <>
       <div class="flex gap-2 mt-4">
-        <button className="py-1.5 px-3 hover:text-green-600 hover:scale-105 hover:shadow text-center border border-gray-300 rounded-md  hover:bg-green-200 border-gray-400 h-8 text-sm flex items-center gap-1 lg:gap-2">
+        <button className="py-1.5 px-3 bg-gray-200 hover:text-green-600 hover:scale-105 hover:shadow text-center border border-gray-300 rounded-2xl  hover:bg-green-200 border-gray-400 h-8 text-sm flex items-center gap-1 lg:gap-2">
           <svg
             class="w-4 h-4"
             xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ const Recommend = () => {
           <span>YES</span>
         </button>
 
-        <button className="py-1.5 px-3 hover:text-red-600 hover:scale-105 hover:shadow text-center border border-gray-300 rounded-md  hover:bg-red-200 border-gray-400 h-8 text-sm flex items-center gap-1 lg:gap-2">
+        <button className="py-1.5 px-3 bg-gray-200 hover:text-red-600 hover:scale-105 hover:shadow text-center border border-gray-300 rounded-2xl  hover:bg-red-200 border-gray-400 h-8 text-sm flex items-center gap-1 lg:gap-2">
           <svg
             class="w-4 h-4"
             xmlns="http://www.w3.org/2000/svg"
