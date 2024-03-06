@@ -1,6 +1,6 @@
 "use client";
 
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/Navbar";
 import Body from "@/components/Body";
 import Footer from "@/components/Footer";
 import store from "@/redux/store";
