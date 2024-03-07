@@ -10,6 +10,7 @@ const Navbar = () => {
   const dispatch = useDispatch();
 
   const onReviewClick = () => {
+    setNavbar(!navbar)
     dispatch(showHideReview(true));
   };
 
@@ -69,7 +70,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-black  border-black  md:hover:text-black md:hover:bg-transparent">
-                  <button className="text-white hover:text-black  bg-blue-400 px-4 py-2 rounded">
+                  <button className="text-white hover:text-black  bg-blue-400 px-4 py-2 rounded" onClick={() => setNavbar(!navbar)}>
                     Login
                   </button>
                 </li>
