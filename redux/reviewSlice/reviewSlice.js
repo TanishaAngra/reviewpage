@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export const reviewSlice = createSlice({
   name: "review",
-  initialState: false,
+  initialState: true,
   reducers: {
     showHideReview: (state, action) => {
       state = action?.payload;
