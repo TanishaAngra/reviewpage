@@ -10,7 +10,7 @@ const Navbar = () => {
   const dispatch = useDispatch();
 
   const onReviewClick = () => {
-    setNavbar(!navbar)
+    if(navbar) setNavbar(!navbar)
     dispatch(showHideReview(true));
   };
 
