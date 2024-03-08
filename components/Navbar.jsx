@@ -54,17 +54,17 @@ const Navbar = () => {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0    border-black hover:text-green-200 md:hover:text-black md:hover:bg-transparent">
+                <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0    border-black hover:text-green-200 md:hover:text-green-200 md:hover:bg-transparent">
                   <Link href="#about" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
-                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0    border-black hover:text-green-200 md:hover:text-black md:hover:bg-transparent">
+                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0    border-black hover:text-green-200 md:hover:text-green-200 md:hover:bg-transparent">
                   <Link href="#blog" onClick={() => setNavbar(!navbar)}>
                     About Us
                   </Link>
                 </li>
-                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  h  border-black hover:text-green-200 md:hover:text-black md:hover:bg-transparent">
+                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  h  border-black hover:text-green-200 md:hover:text-green-200 md:hover:bg-transparent">
                   <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     Our Products
                   </Link>
